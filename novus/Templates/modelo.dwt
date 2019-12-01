@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Commercial   
+Description: A two-column, fixed-width design with simple color scheme.
+Version    : 1.0
+Released   : 20120520
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Esquina do Sucesso</title>
+<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+<link href="../style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="../jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../jquery.dropotron-1.0.js"></script>
+<style type="text/css">
+#apDiv1 {
+	position:absolute;
+	width:245px;
+	height:115px;
+	z-index:1;
+	left: 143px;
+	top: 689px;
+}
+</style>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="../index.php">esquina do sucesso</a></h1>
+				<p>template design by <a href="http://www.freecsstemplates.org/">FCT</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu-wrapper">
+		<ul id="menu">
+			<li class="current_page_item"><a href="../index.php"><span>Homepage</span></a></li>
+			<li><a href="../visao/GuiConsProduto.php"><span>Promoções</span></a></li>
+            <li><a href="../visao/GuiLocalizacao.html"><span>Localização</span></a></li>
+			<li><a href="../visao/GuiSobre.html"><span>Sobre nós</span></a></li>
+            <li><a href="../visao/GuiContato.php"><span>Contato</span></a></li>
+		<script type="text/javascript">
+			$('#menu').dropotron();
+		</script>
+	</div>
+	<!-- end #menu -->
+	<div id="splash"><img src="../images/pics01.jpg" width="980" height="300" alt="" /></div>
+	<div id="page">
+<div id="apDiv1">
+<div align=left>
+  <p>Número de Acessos:</p>
+  <p><a href='http://contador.s12.com.br'><img src='http://contador.s12.com.br/img-zdCAd9d0-26.gif' border='0' alt='contador gratuito'></a>
+    <script type='text/javascript' src='http://contador.s12.com.br/ad.js?id=zdCAd9d0'></script>
+  </p>
+</div>
+<div class="fb-activity" data-width="300" data-height="300" data-header="true" data-font="arial" data-recommendations="true"></div>
+</div>
+<div id="content">
+  <div class="contentbg">
+				<div class="post">
+					<!-- TemplateBeginEditable name="conteudo" -->
+                    <h2 class>titulo</h2>
+					<div class="entry">
+                    <p>
+					texto
+                    </p>
+					<!-- TemplateEndEditable -->
+</div>
+	</div>
+    <!-- TemplateBeginEditable name="like" -->
+    <div>
+   	  <iframe src="http://www.facebook.com/plugins/like.php?href=http://SEU_DOMINIO.com.br/&layout=standard&show_faces=false&width=380&action=like&colorscheme=light&height=25" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:45px;" allowtransparency="true"></iframe>
+        <div class="fb-comments" data-href="http://douglassouza.netne.net" data-width="470" data-num-posts="2"></div>
+    </div>
+    <!-- TemplateEndEditable -->
+                <div style="clear: both;">&nbsp;</div>
+	  </div>
+</div>
+		<!-- end #content --><!-- end #sidebar -->
+<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>2012. esquinadosucesso.com. All rights reserved.Developed by Douglas Souza Flores & Leonardo Matos. Design by <a href="http://www.freecsstemplates.org">FCT</a>. Photos by <a href="http://fotogrph.com/">fotogrph</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
